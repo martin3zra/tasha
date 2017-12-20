@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Tasha"
-  s.version      = "0.1.0"
+  s.version      = "0.2.0"
   s.summary      = "Boilerplate for common case to use on iOS app."
 
   # This description is used to generate tags and improve search results.
