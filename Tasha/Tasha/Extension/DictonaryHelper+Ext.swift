@@ -1,5 +1,5 @@
 //
-//  DictonaryHelper + Ext.swift
+//  DictonaryHelper+Ext.swift
 //  Tasha
 //
 //  Created by Alfredo Martinez on 12/18/17.

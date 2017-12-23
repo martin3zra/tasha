@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5218F0301FEDC8DA0040CC09 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5218F02F1FEDC8DA0040CC09 /* UIColor+Ext.swift */; };
+		524CF80F1FED66EE002E214B /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524CF80E1FED66EE002E214B /* UIView+Ext.swift */; };
 		525451961FEA237B00F7B263 /* Tasha.h in Headers */ = {isa = PBXBuildFile; fileRef = 525451941FEA237B00F7B263 /* Tasha.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		525451A41FEA23F700F7B263 /* DateHelper + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5254519D1FEA23F700F7B263 /* DateHelper + Ext.swift */; };
-		525451A51FEA23F700F7B263 /* DictonaryHelper + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5254519E1FEA23F700F7B263 /* DictonaryHelper + Ext.swift */; };
+		525451A41FEA23F700F7B263 /* DateHelper+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5254519D1FEA23F700F7B263 /* DateHelper+Ext.swift */; };
+		525451A51FEA23F700F7B263 /* DictonaryHelper+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5254519E1FEA23F700F7B263 /* DictonaryHelper+Ext.swift */; };
 		525451A61FEA23F700F7B263 /* DateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525451A01FEA23F700F7B263 /* DateFormat.swift */; };
 		525451A71FEA23F700F7B263 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525451A21FEA23F700F7B263 /* Helper.swift */; };
 		525451A81FEA23F700F7B263 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525451A31FEA23F700F7B263 /* Action.swift */; };
+		52A73E7D1FEDCB54000D3FBC /* UIButton+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A73E7C1FEDCB54000D3FBC /* UIButton+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5218F02F1FEDC8DA0040CC09 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		524CF80E1FED66EE002E214B /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 		525451911FEA237B00F7B263 /* Tasha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Tasha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		525451941FEA237B00F7B263 /* Tasha.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tasha.h; sourceTree = "<group>"; };
 		525451951FEA237B00F7B263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5254519D1FEA23F700F7B263 /* DateHelper + Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DateHelper + Ext.swift"; sourceTree = "<group>"; };
-		5254519E1FEA23F700F7B263 /* DictonaryHelper + Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DictonaryHelper + Ext.swift"; sourceTree = "<group>"; };
+		5254519D1FEA23F700F7B263 /* DateHelper+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DateHelper+Ext.swift"; sourceTree = "<group>"; };
+		5254519E1FEA23F700F7B263 /* DictonaryHelper+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DictonaryHelper+Ext.swift"; sourceTree = "<group>"; };
 		525451A01FEA23F700F7B263 /* DateFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormat.swift; sourceTree = "<group>"; };
 		525451A21FEA23F700F7B263 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		525451A31FEA23F700F7B263 /* Action.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		52A73E7C1FEDCB54000D3FBC /* UIButton+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,8 +74,11 @@
 		5254519C1FEA23F700F7B263 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				5254519D1FEA23F700F7B263 /* DateHelper + Ext.swift */,
-				5254519E1FEA23F700F7B263 /* DictonaryHelper + Ext.swift */,
+				5254519D1FEA23F700F7B263 /* DateHelper+Ext.swift */,
+				5254519E1FEA23F700F7B263 /* DictonaryHelper+Ext.swift */,
+				524CF80E1FED66EE002E214B /* UIView+Ext.swift */,
+				5218F02F1FEDC8DA0040CC09 /* UIColor+Ext.swift */,
+				52A73E7C1FEDCB54000D3FBC /* UIButton+Ext.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -170,9 +179,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				525451A41FEA23F700F7B263 /* DateHelper + Ext.swift in Sources */,
-				525451A51FEA23F700F7B263 /* DictonaryHelper + Ext.swift in Sources */,
+				525451A41FEA23F700F7B263 /* DateHelper+Ext.swift in Sources */,
+				525451A51FEA23F700F7B263 /* DictonaryHelper+Ext.swift in Sources */,
+				5218F0301FEDC8DA0040CC09 /* UIColor+Ext.swift in Sources */,
+				524CF80F1FED66EE002E214B /* UIView+Ext.swift in Sources */,
 				525451A61FEA23F700F7B263 /* DateFormat.swift in Sources */,
+				52A73E7D1FEDCB54000D3FBC /* UIButton+Ext.swift in Sources */,
 				525451A81FEA23F700F7B263 /* Action.swift in Sources */,
 				525451A71FEA23F700F7B263 /* Helper.swift in Sources */,
 			);
